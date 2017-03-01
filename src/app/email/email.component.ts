@@ -9,7 +9,7 @@ declare var $:any;
 @Component({
     selector: 'app-email',
     template: `
-        <form #contactForm="ngForm">
+        <form #contactForm="ngForm" (ngSubmit)="mdSend()">
             <div class="c-form-wrap">
                 <div class="c-form-wrap-group">
                     <input type="text" placeholder="Your Name" class="form-control" 
