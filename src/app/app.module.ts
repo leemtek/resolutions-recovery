@@ -6,7 +6,6 @@ import { HttpModule, JsonpModule } from '@angular/http';
 // Custom Modules
 import { ReCaptchaModule } from 'angular2-recaptcha';
 
-import { AppComponent } from './app.component';
 import { EmailComponent } from "./email/email.component";
 
 @NgModule({
