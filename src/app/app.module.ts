@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule } from '@angular/http';
 
+// Custom Modules
+import { ReCaptchaModule } from 'angular2-recaptcha';
+
 import { AppComponent } from './app.component';
 import { EmailComponent } from "./email/email.component";
 
@@ -14,7 +17,8 @@ import { EmailComponent } from "./email/email.component";
     BrowserModule,
     FormsModule,
     HttpModule,
-    JsonpModule
+    JsonpModule,
+    ReCaptchaModule
   ],
   providers: [],
   bootstrap: [EmailComponent]
