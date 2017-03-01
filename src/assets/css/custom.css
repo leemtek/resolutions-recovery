@@ -1,3 +1,6 @@
+/* Global */
+.margin-bottom-10 { margin-bottom: 10px; }
+
 .c-desktop-logo {
 	height: 65px;
     margin: 25px 0;
@@ -13,7 +16,7 @@
 }
 
 .first-section { 
-	background: url(../img/hd-landscape-wallpaper-high-definition-1600x900.jpg) no-repeat center center; 
+	background: url(https://d1xrp9zhb3ks3c.cloudfront.net/web/resolutions-recovery/assets/images/hd-landscape-wallpaper-high-definition-1600x900.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -21,6 +24,26 @@
 	margin-top: 115px;
 	height: 835px;
 	padding-top: 300px;
+}
+
+#environment { 
+	background: url(https://d1xrp9zhb3ks3c.cloudfront.net/web/resolutions-recovery/assets/images/hd-landscape-wallpaper-high-definition-1600x900.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 835px;
+	padding-top: 220px;
+}
+
+#meetings { 
+	background: url(https://d1xrp9zhb3ks3c.cloudfront.net/web/resolutions-recovery/assets/images/rocks-beach-stone-nature-hd-wallpapers.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 600px;
+    padding-top: 150px;
 }
 
 .gradient-r-l {
@@ -87,8 +110,18 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5bf66', endColorstr='#c5bf66', GradientType=1 );
 }
 
+.black-bg-1 {
+	background-color: rgba(1,1,1,0.5);
+    padding: 40px 0;
+}
+
+.learn-more {
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
 .four-diamond-bullets {
-    list-style-image: url("../img/four-diamond-bullet.png");
+    list-style-image: url("https://d1xrp9zhb3ks3c.cloudfront.net/web/resolutions-recovery/assets/images/four-diamond-bullet.png");
 }
 
 footer .company-name {
