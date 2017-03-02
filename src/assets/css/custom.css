@@ -22,7 +22,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100vh;
-	padding: 25% 0;
+	padding-top: 350px;
 }
 
 #environment { 
@@ -139,6 +139,10 @@ footer .company-name {
 
 	.c-page-on-scroll.c-layout-header-fixed .c-layout-header .c-brand {
 		margin: 0;
+	}
+
+	.c-layout-header.c-layout-header-4 .c-navbar {
+    background: rgba(255,255,255,0.3);
 	}
 }
 
