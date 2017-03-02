@@ -11,11 +11,11 @@ export class EmailService {
     
     // Details of my visitor.
     objSenderInfo = {
-        strName: "Duane Leem",
-        strEmail: "Duane@LeemTek.com",
-        strPhone: "925-526-5229",
-        strSubject: "Test email.",
-        strComment: "Just a test email.  Please ignore.",
+        strName: null,
+        strEmail: null,
+        strPhone: null,
+        strSubject: null,
+        strComment: null,
         googleResponse: null
     }; // objSenderInfo
     
