@@ -22,7 +22,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100vh;
-	padding-top: 300px;
+	padding: 25% 0;
 }
 
 #environment { 
