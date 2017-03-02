@@ -7,7 +7,7 @@ import "rxjs/Rx"; // used for .map
 
 @Injectable()
 export class EmailService {
-    private strPostUrl: string = "https://leemtek.com/forms/resolutionsrecovery";
+    private strPostUrl: string = "https://leemtek.com/forms/resolutionsrecovery/contact";
     
     // Details of my visitor.
     objSenderInfo = {
