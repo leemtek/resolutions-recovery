@@ -22,9 +22,16 @@
 	padding: 26% 0;
 }
 
-.black-bg-1 {
+ .black-bg-1 {
 	background-color: rgba(1,1,1,0.5);
 	padding: 40px 0;
+}
+
+/* Hero adjustment for Laptop 1024px+ */
+@media (min-width: 1024px) {
+	.black-bg-1 {
+		margin-top: -40px;
+	}
 }
 
 .learn-more {
