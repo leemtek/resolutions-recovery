@@ -55,7 +55,7 @@ declare var $:any;
     providers: [EmailService]
 })
 export class EmailComponent {
-    private objUserDetails;
+    objUserDetails;
     
     constructor(private emailService: EmailService) {
         this.objUserDetails = this.emailService.objSenderInfo;
@@ -70,7 +70,7 @@ export class EmailComponent {
         // Attempt to send email.
         this.emailService.mdSendData(this.objUserDetails)
             .subscribe(data => {
-                if (data.sent === "yes") {
+                if (data.status === "email sent") {
                     // Success
                     $('#contactBtnSubmit').text('Email Sent.  Thanks! :)');
                     $('#contactBtnSubmit').removeClass('btn-info').addClass('btn-success');
