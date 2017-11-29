@@ -123,6 +123,11 @@ footer .company-name {
     text-transform: uppercase;
 }
 
+/* New Recovery Environment Section */
+.the-road-bg {
+	background: url(https://leemtek-public.s3-us-west-1.amazonaws.com/web/resolutions-recovery/assets/images/resolutions-recovery-road-background.jpg);
+}
+
 @media (max-width: 320px) {
 	#main-section .tp-banner .btn {
 		margin-top: 60px;
@@ -168,3 +173,8 @@ footer .company-name {
 
 .color-white { color: #fff !important; }
 .color-black { color: #000; }
+
+.bg-opacity-0-5 {
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
