@@ -129,6 +129,17 @@ footer .company-name {
 	background: url(https://leemtek-public.s3-us-west-1.amazonaws.com/web/resolutions-recovery/assets/images/resolutions-recovery-road-background.jpg);
 }
 
+/* Tiburon */
+.tiburon > div {
+	margin-bottom: 15px;
+}
+
+/* San Rafael */
+.san-rafael > div {
+	margin-bottom: 15px;
+}
+
+/* Responsive Points */
 @media (max-width: 320px) {
 	#main-section .tp-banner .btn {
 		margin-top: 60px;
@@ -169,6 +180,8 @@ footer .company-name {
 /* ===================================================================================
 	Common Formatting
 ===================================================================================*/
+.padding-60-0 { padding: 60px 0; }
+
 .space-top-20 { padding-top: 20px; }
 .space-bottom-20 { padding-bottom: 20px; }
 
