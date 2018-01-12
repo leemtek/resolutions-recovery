@@ -4,11 +4,12 @@
 }
 
 .c-desktop-logo-inverse {
-    height: 65px;
+	height: 56px;
+	margin: 4px;
 }
 
 .c-mobile-logo {
-    height: 65px;
+    height: 50px;
     margin: -15px 0;
 }
 
