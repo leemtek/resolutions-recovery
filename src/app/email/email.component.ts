@@ -12,21 +12,21 @@ declare var $:any;
         <form #contactForm="ngForm" (ngSubmit)="mdSend()">
             <div class="c-form-wrap">
                 <div class="c-form-wrap-group">
-                    <input type="text" placeholder="Your Name" class="form-control" 
+                    <input type="text" placeholder="Your Name" class="form-control space-bottom-10" 
                         name="name" required
                         [(ngModel)]="objUserDetails.strName"
                     />
-                    <input type="text" placeholder="Subject" class="form-control"
+                    <input type="text" placeholder="Subject" class="form-control space-bottom-10"
                         name="subject"
                         [(ngModel)]="objUserDetails.strSubject"
                     />
                 </div>
                 <div class="c-form-wrap-group">
-                    <input type="text" placeholder="Your Email" class="form-control"
+                    <input type="text" placeholder="Your Email" class="form-control space-bottom-10"
                         name="email" required
                         [(ngModel)]="objUserDetails.strEmail"
                     />
-                    <input type="text" placeholder="Contact Phone" class="form-control"
+                    <input type="text" placeholder="Contact Phone" class="form-control space-bottom-10"
                         name="phone" required
                         [(ngModel)]="objUserDetails.strPhone"
                     />

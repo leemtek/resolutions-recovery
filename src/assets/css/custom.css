@@ -139,6 +139,13 @@ footer .company-name {
 	margin-bottom: 15px;
 }
 
+/* Contact Us */
+.contactus {
+	margin: 20px 0 !important;
+	padding: 30px 40px !important;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
 /* Responsive Points */
 @media (max-width: 320px) {
 	#main-section .tp-banner .btn {
@@ -183,6 +190,7 @@ footer .company-name {
 .padding-60-0 { padding: 60px 0; }
 
 .space-top-20 { padding-top: 20px; }
+.space-bottom-10 { margin-bottom: 10px; }
 .space-bottom-20 { padding-bottom: 20px; }
 
 .color-white { color: #fff !important; }
