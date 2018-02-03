@@ -4,11 +4,12 @@
 }
 
 .c-desktop-logo-inverse {
-    height: 65px;
+	height: 56px;
+	margin: 4px;
 }
 
 .c-mobile-logo {
-    height: 65px;
+    height: 50px;
     margin: -15px 0;
 }
 
@@ -55,12 +56,12 @@
     padding: 5px 10px 5px 0;
     margin-bottom: 0px;
 	background: rgba(0,0,0,0);
-	background: -moz-linear-gradient(left, rgba(0,0,0,0) 33%, rgba(189,136,2,0.75) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(33%, rgba(0,0,0,0)), color-stop(100%, rgba(189,136,2,0.75)));
-	background: -webkit-linear-gradient(left, rgba(0,0,0,0) 33%, rgba(189,136,2,0.75) 100%);
-	background: -o-linear-gradient(left, rgba(0,0,0,0) 33%, rgba(189,136,2,0.75) 100%);
-	background: -ms-linear-gradient(left, rgba(0,0,0,0) 33%, rgba(189,136,2,0.75) 100%);
-	background: linear-gradient(to right, rgba(0,0,0,0) 33%, rgba(189,136,2,0.75) 100%);
+	background: -moz-linear-gradient(left, rgba(0,0,0,0.001) 0, rgba(189,136,2,0.9) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0, rgba(0,0,0,0)), color-stop(100%, rgba(189,136,2,0.75)));
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.001) 0, rgba(189,136,2,0.9) 100%);
+	background: -o-linear-gradient(left, rgba(0,0,0,0.001) 0, rgba(189,136,2,0.9) 100%);
+	background: -ms-linear-gradient(left, rgba(0,0,0,0.001) 0, rgba(189,136,2,0.9) 100%);
+	background: linear-gradient(to right, rgba(0,0,0,0.001) 0, rgba(189,136,2,0.9) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#bd8802', GradientType=1 );
 }
 
@@ -128,6 +129,24 @@ footer .company-name {
 	background: url(https://leemtek-public.s3-us-west-1.amazonaws.com/web/resolutions-recovery/assets/images/resolutions-recovery-road-background.jpg);
 }
 
+/* Tiburon */
+.tiburon > div {
+	margin-bottom: 15px;
+}
+
+/* San Rafael */
+.san-rafael > div {
+	margin-bottom: 15px;
+}
+
+/* Contact Us */
+.contactus {
+	margin: 20px 0 !important;
+	padding: 30px 40px !important;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Responsive Points */
 @media (max-width: 320px) {
 	#main-section .tp-banner .btn {
 		margin-top: 60px;
@@ -168,8 +187,13 @@ footer .company-name {
 /* ===================================================================================
 	Common Formatting
 ===================================================================================*/
+.padding-top-0 { padding-top: 0 !important; }
+.padding-60-0 { padding: 60px 0; }
+
 .space-top-20 { padding-top: 20px; }
+.space-bottom-10 { margin-bottom: 10px; }
 .space-bottom-20 { padding-bottom: 20px; }
+.space-bottom-40 { padding-bottom: 40px; }
 
 .color-white { color: #fff !important; }
 .color-black { color: #000; }
@@ -178,3 +202,7 @@ footer .company-name {
     padding: 60px 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Font sizes */
+.font-size-24 { font-size: 24px; }
+.font-size-30 { font-size: 30px; }
