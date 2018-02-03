@@ -187,11 +187,13 @@ footer .company-name {
 /* ===================================================================================
 	Common Formatting
 ===================================================================================*/
+.padding-top-0 { padding-top: 0 !important; }
 .padding-60-0 { padding: 60px 0; }
 
 .space-top-20 { padding-top: 20px; }
 .space-bottom-10 { margin-bottom: 10px; }
 .space-bottom-20 { padding-bottom: 20px; }
+.space-bottom-40 { padding-bottom: 40px; }
 
 .color-white { color: #fff !important; }
 .color-black { color: #000; }
@@ -200,3 +202,7 @@ footer .company-name {
     padding: 60px 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Font sizes */
+.font-size-24 { font-size: 24px; }
+.font-size-30 { font-size: 30px; }

@@ -6,18 +6,18 @@ var PageContact = function() {
 
 		var mapbg = new GMaps({
 			div: '#gmapbg',
-			lat: 37.8927918,
-			lng: -122.1202161,
+			lat: 37.977251,
+			lng: -122.522663,
 			scrollwheel: false
 		});
 
 
 		mapbg.addMarker({
-			lat: 37.8927918,
-			lng: -122.1202161,
+			lat: 37.977251,
+			lng: -122.522663,
 			title: 'Your Location',
 			infoWindow: {
-				content: '<h3>Resolutions Recovery</h3><p>1004 Oak Hill Rd.<br />Lafayette, CA 94549</p>'
+				content: '<h3>Resolutions Recovery</h3><p>1363 Lincoln Ave. #4<br />San Rafael, Ca. 94901</p>'
 			}
 		});
 	}
