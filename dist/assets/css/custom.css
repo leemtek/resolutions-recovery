@@ -15,7 +15,7 @@
 
 .black-bg-1 {
 	background-color: rgba(1,1,1,0.5);
-	padding: 40px 5%;
+	padding: 40px 15px;
 }
 
 .c-layout-revo-slider-12 .c-main-title {
@@ -23,26 +23,8 @@
     padding: 0;
 }
 
-#environment { 
-	background: url(https://d1xrp9zhb3ks3c.cloudfront.net/web/resolutions-recovery/assets/images/tiburon-deck-view.jpg) no-repeat center center; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 5% 0;
-}
-
 #services .c-bg-parallax {
 	background-position: 38% center!important;
-}
-
-#meetings { 
-	background: url(https://d1xrp9zhb3ks3c.cloudfront.net/web/resolutions-recovery/assets/images/rocks-beach-stone-nature-hd-wallpapers.jpg) no-repeat center center; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-    padding: 10% 0;
 }
 
 #management .c-bg-parallax {
