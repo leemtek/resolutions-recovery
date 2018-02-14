@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "deploy-old": "git subtree push --prefix dist origin gh-pages",
+    "deploy": "rm -r docs/ && ng build --prod && mv dist docs"
   },
   "private": true,
   "dependencies": {
